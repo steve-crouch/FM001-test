@@ -68,7 +68,7 @@ To make full use of the lesson template, it is wise to include as many as the
 following front matter variables in your episodes:
 
 1. `title` - the episode title
-2. `slug` - the episode slug, used to generate the permalink to that episode
+2. `slug` - the episode slug, used to generate the permalink to that episode 
 3. `teaching` - the number of minutes of teaching for the episode
 4. `exercises` - the number of minutes of exercises for the episode
 5. `questions` - a YAML list of questions for the episode
