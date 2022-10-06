@@ -118,7 +118,8 @@ exclude:
 highlighter: rouge
 
 # Using the new jekyll remote themes
-remote_theme: Southampton-RSG-Training/rsg-theme
+#remote_theme: Southampton-RSG-Training/rsg-theme
+remote_theme: DiRAC-Training/DiRAC-theme
 
 plugins:
   - jekyll-remote-theme
