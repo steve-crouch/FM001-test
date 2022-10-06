@@ -15,7 +15,7 @@ keypoints:
 - Your current directory is referred to as the working directory.
 - To change directories, use `cd`.
 - To view files, use `ls`.
-- You can view help for a command with `man command` or `command --help`.
+- You can view help for a command with `man command` or `command --help`. 
 - Hit `tab` to autocomplete whatever you're currently typing.
 ---
 
