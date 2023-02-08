@@ -29,14 +29,14 @@ keypoints:
 Frequently, research problems that use computing can outgrow the desktop or
 laptop computer where they started:
 
-* A statistics student wants to do cross-validate their model. This involves
+* A cosmology student wants to do cross-validate their model. This involves
   running the model thousands of times &mdash; but each run takes an hour.
   Running on their laptop will take over a month!
-* A genomics researcher has been using small datasets of sequence data, but
+* A astronomy researcher has been using small datasets of sequence data, but
   soon will be receiving a new type of sequencing data that is 10 times as
   large. It's already challenging to open the datasets on their computer &mdash;
   analyzing these larger datasets will probably crash it.
-* An engineer is using a fluid dynamics package that has an option to run in
+* An astrophysicist is using a fluid dynamics package that has an option to run in
   parallel. So far, they haven't used this option on their desktop, but in
   going from 2D to 3D simulations, simulation time has more than tripled and it
   might be useful to take advantage of that feature.
