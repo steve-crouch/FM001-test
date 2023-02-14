@@ -100,7 +100,8 @@ drwxrwxr-x 2 yourUsername ds007     4096 Jan 16 19:16 fastq
 -rw-rw-r-- 1 yourUsername ds007      245 Jan 16 19:24 word_counts.txt
 ```
 {: .output}
-####Note:
+
+Note:
 On most DiRAC systems an alias will be defined.
 > ...
 >alias ll='ls -sl'
