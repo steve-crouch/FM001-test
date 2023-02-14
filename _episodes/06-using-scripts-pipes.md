@@ -61,7 +61,7 @@ After printing out four lines of output, the pipe terminates.
 
 ## Accepting Input into Our Script
 
-Oue previous example shows how we can include the output from our commands within a pipe. But what about how we might process input with our script? We can do this using `read` in Bash. Write a new script called `filter.sh`:
+Our previous example shows how we can include the output from our commands within a pipe. But what about how we might process input with our script? We can do this using `read` in Bash. Write a new script called `filter.sh`:
 
 ~~~
 #!/bin/bash
