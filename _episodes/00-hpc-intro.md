@@ -20,12 +20,6 @@ keypoints:
 
 ## Why Use These Computers?
 
-> ## What do you need?
->
-> How does computing help you do
-> your research? How could more computing help you do more or better research?
-{: .challenge}
-
 Frequently, research problems that use computing can outgrow the desktop or
 laptop computer where they started:
 
@@ -45,7 +39,7 @@ In all these cases, what is needed is access to more computers that can be used
 at the same time. Luckily, large scale computing systems &mdash; shared
 computing resources with lots of computers &mdash; are available at many
 universities, labs, or through national networks. These resources usually have
-more central processing units (CPUs), CPUs that operate at higher speeds, more
+more central processing units (CPUs), that operate at higher speeds, more
 memory, more storage, and faster connections with other computer systems. They
 are frequently called "clusters", "supercomputers" or resources for "high
 performance computing" or HPC. 
