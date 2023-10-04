@@ -218,7 +218,7 @@ $ VAR="This is our variable"
 ```
 {: .language-bash}
 
-Note that syntax used here. There is no whitespace between the variable name,
+Note the syntax used here. There is no whitespace between the variable name,
 the `=` and the content of the variable. This is just the syntax Bash uses.
 Adding white space is a common mistake, which people make all the time!
 To use a variable, prefix its name with a `$` sign. Note that if we want to
