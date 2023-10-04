@@ -85,7 +85,7 @@ $ ls
 `ls` prints the names of the files and directories in the current directory in
 alphabetical order, arranged neatly into columns.
 
-> ## Differences between remote and local system
+> ## Differences between remote and local systems
 >
 > It's important to be able to distinguish whether you're on your local machine or a remote
 > machine, and if you're connecting from either a Linux or Mac terminal it can be easy to forget!
@@ -150,7 +150,7 @@ $ cd
 ```
 {: .language-bash}
 
-What is the ~ character? When using the shell, ~ is a shortcut that always represents
+What is the ~ character (pronounced 'tilde')? When using the shell, ~ is a shortcut that always represents
 your home directory.
 
 A quick note on the structure of a UNIX-style (Linux/Mac/Android/Solaris/etc)
@@ -205,7 +205,7 @@ changed as you install new software or upgrade your OS.
 >   be deleted at the end of your job.
 > * **Ramdisk (job only)** - Some systems may let you store files in a "RAM
 >   disk" while running a job, where files are stored directly in the
->   computer's memory. This extremely fast, but files stored here will count
+>   computer's memory. This is extremely fast, but files stored here will count
 >   against your job's memory usage and be deleted at the end of your job.
 {: .callout}
 
