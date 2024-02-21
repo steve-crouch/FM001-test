@@ -85,7 +85,7 @@ $ ls
 `ls` prints the names of the files and directories in the current directory in
 alphabetical order, arranged neatly into columns.
 
-> ## Differences between remote and local system
+> ## Differences between remote and local systems
 >
 > It's important to be able to distinguish whether you're on your local machine or a remote
 > machine, and if you're connecting from either a Linux or Mac terminal it can be easy to forget!
@@ -150,7 +150,7 @@ $ cd
 ```
 {: .language-bash}
 
-What is the ~ character? When using the shell, ~ is a shortcut that always represents
+What is the ~ character (pronounced 'tilde')? When using the shell, ~ is a shortcut that always represents
 your home directory.
 
 A quick note on the structure of a UNIX-style (Linux/Mac/Android/Solaris/etc)
@@ -189,23 +189,23 @@ changed as you install new software or upgrade your OS.
 >   files stored here are often backed up (but check your local configuration
 >   to be sure!). Files stored here are typically slower to access, the data is
 >   actually stored on another computer and is being transmitted and made
->   available over the network!
+>   available over the network! Home space should not be used in job execution as it is normally the slowest filesystem.
 > * **Scratch** - Some systems may offer "scratch" space. Scratch space is
 >   typically faster to use than your home directory or network filesystem, but
 >   is not usually backed up, and should not be used for long term storage.
-> * **Work file system** - As an alternative to (or sometimes as well as)
+> * **Work file system/Data space** - As an alternative to (or sometimes as well as)
 >   Scratch space, some HPC systems offer fast file system access as a work
 >   file system. Typically, this will have higher performance than your home
 >   directory or network file system and may not be backed up. It differs from
 >   scratch space in that files in a work file system are not automatically
->   deleted for you, you must manage the space yourself.
+>   deleted for you, you must manage the space yourself. This will be part of your data allocation.
 > * **Local scratch (job only)** - Some systems may offer local scratch space
 >   while executing a job. (A job is a program which you submit to run on an
 >   HPC system, and will be covered later.) Such storage is very fast, but will
 >   be deleted at the end of your job.
 > * **Ramdisk (job only)** - Some systems may let you store files in a "RAM
 >   disk" while running a job, where files are stored directly in the
->   computer's memory. This extremely fast, but files stored here will count
+>   computer's memory. This is extremely fast, but files stored here will count
 >   against your job's memory usage and be deleted at the end of your job.
 {: .callout}
 

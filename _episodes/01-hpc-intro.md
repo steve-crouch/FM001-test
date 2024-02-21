@@ -15,28 +15,22 @@ keypoints:
 - These HPC systems can be used to do work that would either be impossible or
   much slower or smaller systems.
 - The standard method of interacting with such systems is via a command line
-  interface such as Bash.
+  interface such as Bash. 
 ---
 
 ## Why Use These Computers?
 
-> ## What do you need?
->
-> How does computing help you do
-> your research? How could more computing help you do more or better research?
-{: .challenge}
-
 Frequently, research problems that use computing can outgrow the desktop or
 laptop computer where they started:
 
-* A statistics student wants to do cross-validate their model. This involves
+* A cosmology student wants to do cross-validate their model. This involves
   running the model thousands of times &mdash; but each run takes an hour.
   Running on their laptop will take over a month!
-* A genomics researcher has been using small datasets of sequence data, but
+* A astronomy researcher has been using small datasets of sequence data, but
   soon will be receiving a new type of sequencing data that is 10 times as
   large. It's already challenging to open the datasets on their computer &mdash;
   analyzing these larger datasets will probably crash it.
-* An engineer is using a fluid dynamics package that has an option to run in
+* An astrophysicist is using a fluid dynamics package that has an option to run in
   parallel. So far, they haven't used this option on their desktop, but in
   going from 2D to 3D simulations, simulation time has more than tripled and it
   might be useful to take advantage of that feature.
@@ -44,11 +38,7 @@ laptop computer where they started:
 In all these cases, what is needed is access to more computers that can be used
 at the same time. Luckily, large scale computing systems &mdash; shared
 computing resources with lots of computers &mdash; are available at many
-universities, labs, or through national networks. These resources usually have
-more central processing units (CPUs), CPUs that operate at higher speeds, more
-memory, more storage, and faster connections with other computer systems. They
-are frequently called "clusters", "supercomputers" or resources for "high
-performance computing" or HPC. 
+universities, labs, or through national networks. Compared to personal computers, these facilities usually have more memory, more storage, and more central processing units (CPUs) -- which operate at higher speeds -- and also have faster connections with other computer systems. They are frequently called "clusters", "supercomputers" or resources for "high performance computing" or HPC. 
 
 Using a cluster often has the following advantages for researchers:
 
@@ -64,8 +54,7 @@ Using a cluster often has the following advantages for researchers:
   research community for using these systems in significantly less that it
   would be otherwise.
 * **Convenience.** Maybe your calculations just take a long time to run or are
-  otherwise inconvenient to run on your personal computer. There's no need to
-  tie up your own computer for hours when you can use someone else's instead.
+  otherwise inconvenient to run on your personal computer. There’s no need to tie up your own computer for hours when you can use a purpose-built facility instead.
 
 This is how a large-scale compute system like a cluster can help solve problems
 like those listed at the start of the lesson.
@@ -81,17 +70,7 @@ like those listed at the start of the lesson.
 ## The Command Line
 
 Using HPC systems often involves the use of a shell through a command line
-interface (CLI) and either specialized software or programming techniques. The
-shell is a program with the special role of having the job of running other
-programs rather than doing calculations or similar tasks itself. What the user
-types goes into the shell, which then figures out what commands to run and
-orders the computer to execute them. (Note that the shell is called "the shell"
-because it encloses the operating system in order to hide some of its
-complexity and make it simpler to interact with.) The most popular Unix shell
-is Bash, the Bourne Again SHell (so-called because it's derived from a shell
-written by Stephen Bourne). Bash is the default shell on most modern
-implementations of Unix and in most packages that provide Unix-like tools for
-Windows.
+interface (CLI) and either specialized software or programming techniques. The shell is a program with the special role of running other programs rather than performing calculations or similar tasks itself; it is called “the shell” because it encloses the operating system in order to hide some of its complexity and make it simpler to interact with. The user types commands that are sent to the shell, which then figures out what commands to run and orders the computer to execute them. The most popular Unix shell is Bash, the Bourne Again SHell (so-called because it's derived from a shell written by Stephen Bourne). Bash is the default shell on most modern implementations of Unix and in most packages that provide Unix-like tools for Windows.
 
 Interacting with the shell is done via a CLI on most
 HPC systems. In the earliest days of computing, the only way to interact with

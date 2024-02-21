@@ -101,6 +101,13 @@ drwxrwxr-x 2 yourUsername ds007     4096 Jan 16 19:16 fastq
 ```
 {: .output}
 
+Note:
+On most DiRAC systems an alias will be defined.
+> ...
+>alias ll='ls -sl'
+>{: .language-bash}
+{: .solution}
+
 That's a huge amount of output: a full listing of everything in the directory.
 Let's see if we can understand **what each field of a given row represents**,
 working left to right.
@@ -211,7 +218,7 @@ $ VAR="This is our variable"
 ```
 {: .language-bash}
 
-Note that syntax used here. There is no whitespace between the variable name,
+Note the syntax used here. There is no whitespace between the variable name,
 the `=` and the content of the variable. This is just the syntax Bash uses.
 Adding white space is a common mistake, which people make all the time!
 To use a variable, prefix its name with a `$` sign. Note that if we want to

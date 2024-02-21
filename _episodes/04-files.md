@@ -89,6 +89,19 @@ editor. Here are the shortcut keys for a few common actions:
 
 * <kbd>Ctrl</kbd>+<kbd>U</kbd> &mdash; paste the cut text line (or lines). This
   command can be repeated to paste the same text elsewhere.
+  
+
+Do a quick check to confirm our file was created.
+
+```
+$ ls
+```
+{: .language-bash}
+
+```
+draft.txt
+```
+{: .output}
 
 
 > ## Using `vim` as a text editor
@@ -109,19 +122,6 @@ editor. Here are the shortcut keys for a few common actions:
 > * `dd` &mdash; cut/delete a line
 > * `y` &mdash; paste a line
 {: .callout}
-
-Do a quick check to confirm our file was created.
-
-```
-$ ls
-```
-{: .language-bash}
-
-```
-draft.txt
-```
-{: .output}
-
 
 ## Reading Files
 
@@ -475,7 +475,7 @@ $ scp path/to/local/file.txt yourUsername@dirac-resource.ac.uk:/path/on/dirac-re
 To *download from* another computer:
 
 ```
-$ scp yourUsername@dirac-resource.ac.uk:/path/on/dirac-resource/file.txt path/to/local/
+$ scp yourUsername@dirac-resource.ac.uk:path/on/dirac-resource/file.txt path/to/local/
 ```
 {: .language-bash}
 

@@ -23,29 +23,23 @@ keypoints:
 ## Opening a Terminal
 
 Connecting to an HPC system is most often done through a tool known as "SSH"
-(Secure SHell) and usually run through a terminal. To begin using an
-HPC system, we need to begin by opening a terminal. Different operating systems
+(Secure SHell) and is usually run through a terminal. To begin using an
+HPC system, we need to open a terminal. Different operating systems
 have different terminals, none of which are exactly the same in terms of their
 features and abilities while working on the operating system. When connected to
-the remote system the experience between terminals will be identical as each
+the remote system, the experience between terminals will be identical as each
 will faithfully present the same experience of using that system.
 
-Here is the process for opening a terminal in each operating system.
+We now list the procedure for opening a terminal in three popular operating systems: Linux, MacOS, and Windows.
 
 ### Linux
 
 There are many different versions (aka "flavours") of Linux and how to open a
-terminal window can change between flavours. Fortunately most Linux users
-already know how to open a terminal window since it is a common part of the
-workflow for Linux users. If this is something that you do not know how to do,
-then a quick search on the internet for "how to open a terminal window in" with
-your particular Linux flavour appended to the end should quickly give you the
-directions you need.
+terminal window can change between flavours. Many Linux users already know how to open a terminal window since it is a common part of the workflow for Linux users. Sometimes a terminal icon will be present on the workbar by default or can be searched for through the opening menu. If neither of these options provides a suitable answer, a quick search on the internet for “how to open a terminal window in” with your particular Linux flavour appended to the end should quickly give you the directions you need.
 
 ### MacOS
 
-Macs have had a terminal built in since the first version since it is
-built on a UNIX-like operating system, leveraging many parts from BSD (Berkeley
+MacOS is built on a UNIX-like operating system and has therefore had a built-in terminal built since its first iteration, leveraging many parts from BSD (Berkeley
 Software Distribution). The terminal can be quickly opened through the
 the Spotlight Search tool. Hold down the command key and press the spacebar. In
 the search bar that pops up type "terminal" and choose the terminal app from the
@@ -58,12 +52,11 @@ be presented with a terminal window. Alternatively, you can find Terminal under
 While Windows does have a command-line interface known as the "Command Prompt"
 that has its roots in MS-DOS (Microsoft Disk Operating System), it usually
 does not have an SSH tool built into it and so one needs to be installed. There
-are a variety of programs that can be used for this; a few common ones we
-describe here, as follows:
+are a variety of programs that can be used for this; we describe four popular options below:
 
 #### Git Bash
 
-Git Bash gives you a terminal like interface in Windows. You can use this to
+Git Bash provides a terminal-like interface in Windows. You can use this to
 connect to a remote computer via SSH. It can be downloaded for free from
 [here](https://gitforwindows.org/).
 
@@ -229,7 +222,7 @@ On Windows you can use one of the following:
 > 
 > Historically, passwords alone have been found to be inadequate. There have been many
 > password-related security breaches in recent years due to many factors, including
-> humans' poor memories, having too many accounts to maintain different password, and 
+> humans' poor memories, having too many accounts to maintain different passwords, and 
 > a general 'security fatigue', all of which may lead to easily guessable or hackable
 > passwords. 2FA attempts to solve this problem by having an additional "second factor"
 > such as:
@@ -340,9 +333,9 @@ which system we are entering commands on though so we will adopt the following
 convention:
 
 - `[local]$` when the command is to be entered on a terminal connected to your
-  local computer
+  local computer.
 - `[yourUsername@login7a [cosma7] ~]$` when the command is to be entered on a
-  terminal connected to the remote system
+  terminal connected to the remote system.
 - `$` when it really doesn't matter which system the terminal is connected to.
 
 > ## Being certain which system your terminal is connected to
