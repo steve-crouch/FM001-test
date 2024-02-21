@@ -18,7 +18,7 @@ keypoints:
   interface such as Bash. 
 ---
 
-## Why Use These Computers
+## Why Use These Computers?
 
 Frequently, research problems that use computing can outgrow the desktop or
 laptop computer where they started:
